@@ -105,3 +105,68 @@ a {
     color-scheme: dark;
   }
 }
+  
+
+ /* start style code for register box only  */
+.RegisterBox{
+  background-image: linear-gradient(red, yellow);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px rgba(170, 165, 184, 0.773);
+
+  
+
+}
+.RegisterBox h2{
+  color: white;
+  font-size: 40px ;
+}
+.RegisterBox p{
+  color: rgb(204, 255, 0);
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 320px;
+  margin: auto;
+}
+.inputBox input{
+  margin: 20px;
+  height: 40px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.btn{
+  width: 160px;
+  margin: auto;
+  height: 50px;
+  border-radius: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  background-color: blue;
+  color: white;
+  box-shadow: 2px 2px 10px 2px rgb(241, 239, 247);
+  cursor: pointer;
+}
+
+.inputBox ::placeholder{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+}
+
+input[type=text],[type=email] ,[type=password] {
+  font-size: larger;
+  padding-left: 5px;
+  
+}
