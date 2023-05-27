@@ -12,6 +12,7 @@ function Register() {
                 <input type='text'  placeholder="User name" required></input>
                 <input type='email'  placeholder="E-mail Address" required></input>
                 <input type='password'  placeholder="Password" required></input>
+                <input type='password'  placeholder="Confirm Password" required></input>
                 <button className='btn'>Create Account</button>
                </form>
             </div>

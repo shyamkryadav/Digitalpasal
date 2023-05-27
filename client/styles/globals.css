@@ -105,16 +105,23 @@ a {
     color-scheme: dark;
   }
 }
+
+/* sytle the main continaer box for index page / */
+.mainContainer{
+  margin: 20px;
+  background-image: linear-gradient(rgba(232, 208, 208, 0.612), rgba(230, 230, 85, 0.6));
+  
+}
   
 
  /* start style code for register box only  */
 .RegisterBox{
+  padding: 20px;
   background-image: linear-gradient(red, yellow);
   width: 500px;
-  height: 500px;
   text-align: center;
-  padding: 20px;
-  margin: 10px;
+  padding: px;
+  margin: auto;
   border-radius: 20px;
   box-shadow: 5px 5px 10px 5px rgba(170, 165, 184, 0.773);
 
@@ -140,7 +147,7 @@ a {
   margin: auto;
 }
 .inputBox input{
-  margin: 20px;
+  margin: 15px;
   height: 40px;
   width: 300px;
   border-radius: 8px;
